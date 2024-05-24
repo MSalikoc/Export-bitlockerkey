@@ -18,6 +18,7 @@ This repository contains a PowerShell script to retrieve BitLocker recovery keys
    - Navigate to "App registrations" and create a new app registration.
    - Grant necessary permissions to the app:
      - `Device.Read.All`
+     - `DeviceManagementManagedDevices.Read.All`
     
    ## Usage
 # Clone this repository:
