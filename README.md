@@ -8,7 +8,7 @@
       <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
     </a>
 
-# Intune BitLocker Recovery Keys Retrieval
+## Intune BitLocker Recovery Keys Retrieval
 
 This repository contains a PowerShell script to retrieve BitLocker recovery keys for all devices registered in Intune using Microsoft Graph API.
 
