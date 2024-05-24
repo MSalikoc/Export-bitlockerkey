@@ -6,7 +6,6 @@
     </a>
     <a href="https://www.youtube.com/@Microsoft365alikoc">
       <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
-    </a>
 
 ## Intune BitLocker Recovery Keys Retrieval
 
