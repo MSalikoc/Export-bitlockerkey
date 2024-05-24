@@ -28,10 +28,12 @@ git clone https://github.com/yourusername/Intune-BitLocker-Recovery-Keys.git
 cd Intune-BitLocker-Recovery-Keys
 Open Retrieve-BitLockerKeys.ps1 and replace the following placeholders with your Azure AD app details:
 
+```powershell
 # Fill in your App ID, Tenant ID, and Secret
 $appid = '<YourAppIdHere>' # App ID of the App Registration
 $tenantid = '<YourTenantIdHere>' # Tenant ID of your Azure AD
 $secret = '<YourSecretHere>' # Secret of the App Registration
+```
 
 # Run the script:
 powershell
