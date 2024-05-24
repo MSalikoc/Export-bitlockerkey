@@ -46,6 +46,6 @@ foreach ($device in $devices) {
 }
 
 # Save BitLocker keys to a CSV file
-$bitlockerKeys | Export-Csv -Path "BitLockerRecoveryKeys.csv" -NoTypeInformation
+$bitlockerKeys | Export-Csv -Path "c:/BitLockerRecoveryKeys.csv" -NoTypeInformation
 
-Write-Host "BitLocker recovery keys successfully exported."
+Write-Host "BitLocker recovery keys successfully exported on C."
