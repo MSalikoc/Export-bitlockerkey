@@ -1,12 +1,3 @@
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/OF0yOAufcWLfi/giphy.gif?cid=ecf05e47o7i2m6n7cfpruz5v1n9j7i4bnxbhmr1zgrxajiqt&ep=v1_gifs_search&rid=giphy.gif&ct=g" width="200"/>
-  <div id="badges">
-    <a href="https://www.linkedin.com/in/ali-koc-168462174/">
-      <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-    </a>
-    <a href="https://www.youtube.com/@Microsoft365alikoc">
-      <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
-
 ## Intune BitLocker Recovery Keys Retrieval
 
 This repository contains a PowerShell script to retrieve BitLocker recovery keys for all devices registered in Intune using Microsoft Graph API.
@@ -37,10 +28,10 @@ git clone https://github.com/yourusername/Intune-BitLocker-Recovery-Keys.git
 cd Intune-BitLocker-Recovery-Keys
 Open Retrieve-BitLockerKeys.ps1 and replace the following placeholders with your Azure AD app details:
 
-# YOUR_TENANT_ID
-# YOUR_CLIENT_ID
-# YOUR_CLIENT_SECRET
-
+# Fill in your App ID, Tenant ID, and Secret
+$appid = '<YourAppIdHere>' # App ID of the App Registration
+$tenantid = '<YourTenantIdHere>' # Tenant ID of your Azure AD
+$secret = '<YourSecretHere>' # Secret of the App Registration
 
 # Run the script:
 powershell
