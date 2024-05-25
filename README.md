@@ -25,7 +25,7 @@ This repository contains a PowerShell script to retrieve BitLocker recovery keys
 
 bash
 Copy code
-git clone https://github.com/yourusername/Intune-BitLocker-Recovery-Keys.git
+git clone https://github.com/MSalikoc/Intune-BitLocker-Recovery-Keys.git
 cd Intune-BitLocker-Recovery-Keys
 Open Retrieve-BitLockerKeys.ps1 and replace the following placeholders with your Azure AD app details:
 
